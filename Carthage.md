@@ -14,27 +14,22 @@ slidenumbers: true
 
 ---
 
-# The vocabulary of code sharing
-* **static library**: code that is copied into the application's executable at link time.
-* **framework**: a hierarchical directory that encapsulates a dynamicly loaded library, as well as other resources, in a single package. [2]
-* **bundle**: A special type of folder that can encapsulate shared resources. Yes: a framework is a bundle.
-
----
-
 ![](wildwest.jpg)
 # Early iOS Support
-- No frameworks :(
-- Static Libraries
-- Bundled resources
+- No Frameworks
+- Lots and lots devs
+- Entirely new Platform
 
 ---
 
 # Favorite Methods of iOS Code Sharing
 - Just copy in all the `*.h` and `*.m` files
-- "Static Frameworks" a made-up thing that involved making a `.framework` and linking it in statically
+- "Static Frameworks"
 - Static Libraries with Resource Bundles
-- "The common relative directory protocol"
+- "The common relative directory handshake"
 - git submodules + subprojects
+- no frameworks :(
+- no Maven/Ruby Gems
 
 ---
 
@@ -46,17 +41,23 @@ slidenumbers: true
 
 ---
 
-![](happy.gif)
-# FRAMEWORKS!!! iOS 8+
-
----
-
 # What's wrong with Cocoapods?
 - It duplicates the work of some other tools
     - Xcode
     - Git
     - Github, Twitter
-- At the mercy of Cocoapods
+
+---
+
+# And
+- You have to wait [or contribute updates] for new features
+    - Frameworks
+    - Swift
+
+---
+
+# One more thing:
+- Cocoapods automatically changes your project file and introduces a `.xcworkspace` that you must use.
 
 ---
 
@@ -70,8 +71,18 @@ slidenumbers: true
 
 ---
 
+![](happy.gif)
+# FRAMEWORKS!!! iOS 8+
+
+---
+
 ![inline](NamingCarthage.png)
 # Enter Carthage
+
+---
+
+> **Carthage** ...the simplest way to add frameworks to your Cocoa application
+-- github.com/Carthage/Carthage
 
 ---
 
@@ -84,11 +95,6 @@ What about publishing my own frameworks?
 ---
 
 Submodules? blech.
-
----
-
-> **Carthage** ...the simplest way to add frameworks to your Cocoa application
--- github.com/Carthage/Carthage
 
 ---
 

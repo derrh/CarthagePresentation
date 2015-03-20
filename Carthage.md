@@ -86,17 +86,10 @@ slidenumbers: true
 
 ---
 
-How do you import frameworks in Carthage?
+# Show and tell
 
 ---
 
-What about publishing my own frameworks?
+# Questions
 
----
-
-Submodules? blech.
-
----
-
-# References
-1 . [Framework Programming Guide](https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPFrameworks/Concepts/WhatAreFrameworks.html#//apple_ref/doc/uid/20002303-BBCEIJFI)
+(aka the end)
